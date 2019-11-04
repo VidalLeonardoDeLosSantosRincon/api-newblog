@@ -1,0 +1,95 @@
+.ctr-login{
+    width:100%;
+    background: white;
+    height: 100vh;
+    background-image:url("../images/bg-login3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    padding:100px 0 0 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.ctr-form-login{
+    width:500px;
+    height:250px;
+    background:transparent;
+    padding:10px;
+    border-radius:3px;
+    box-sizing:border-box;
+    box-shadow:1px 1px 5px rgba(0,0,0,0.5);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctr-form-login .form-login{
+    background:transparent;
+    width:100%;
+    height:100%;
+    padding:10px 25px;
+    box-sizing:border-box;
+    border:1px solid rgba(0,0,0,0.05);
+
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.ctr-form-login .form-login .field{
+    width:100%;
+    height:45px;
+    box-sizing:border-box;
+    font-size: 16px;
+    background: rgba(255,255,255,0.2);
+    color:gray;
+    padding:0 10px;
+    border:1px solid rgba(0,0,0,0.09);
+    border:none;
+    border-radius:3px;
+}
+
+.ctr-form-login .form-login .field:hover{
+   box-shadow: 1px 10px 5px rgba(0,0,0,0.2);
+   transform: translateY(-5px);
+   -webkit-transform: translateY(-5px);
+   -moz-transform: translateY(-5px);
+   -ms-transform: translateY(-5px);
+   -o-transform: translateY(-5px);
+   transition:all 0.1s linear;
+   -webkit-transition:all 0.1s linear;
+   -moz-transition:all 0.1s linear;
+   -ms-transition:all 0.1s linear;
+   -o-transition:all 0.1s linear;
+}
+
+.ctr-form-login .form-login .btn{
+    width:100%;
+    height:40px;
+    box-sizing:border-box;
+    border:none;
+    color:white;
+    border-radius:3px;
+    background:linear-gradient(45deg,red,dodgerblue,skyblue);
+    cursor: pointer;
+}
+
+.ctr-form-login .form-login .btn:hover{
+    box-shadow: 1px 10px 5px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transition:all 0.1s linear;
+    -webkit-transition:all 0.1s linear;
+    -moz-transition:all 0.1s linear;
+    -ms-transition:all 0.1s linear;
+    -o-transition:all 0.1s linear;
+}
+::placeholder { color: white; }
+::-ms-input-placeholder { color: white; } 
+::-webkit-input-placeholder { color: white; } 
+::-moz-placeholder { color:white; } 
